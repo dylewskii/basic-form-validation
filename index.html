@@ -8,13 +8,14 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <div class="container">
-        <form action="">
+    <div class="wrapper">
+        <form class="form" action="#">
             <!-- Email -->
             <label for="email-field">Email:</label>
             <input type="email" name="email" id="email-field">
 
             <!-- Country -->
+            <label for="country-field">Country:</label>
             <select id="country-field" name="country">
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
@@ -274,7 +275,15 @@
             <label for="password-conf-field">Confirm Password:</label>
             <input type="password" name="password" id="password-conf-field">
 
+            <div class="form-controls">
+                <button class="cancel-btn">Cancel</button>
+                <button type="submit" class="confirm-btn">Confirm</button>
+            </div>
         </form>
+
+        <div class="image-container">
+            <img src="" alt="car">
+        </div>
     </div>
 </body>
 </html>

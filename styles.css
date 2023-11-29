@@ -1,0 +1,35 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.image-container {
+    grid-column: 2;
+}
+
+select, input {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.cancel-btn, .confirm-btn {
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover, .confirm-btn:hover {
+    background-color: aliceblue;
+}
