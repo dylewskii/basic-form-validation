@@ -29,9 +29,15 @@ img {
     background-size: cover;
 }
 
+.form > h1,
+select,
+input,
+.validation-box {
+    margin-bottom: 15px;
+}
+
 select, input {
     width: 200px;
-    margin-bottom: 15px;
 }
 
 .cancel-btn, .confirm-btn {
