@@ -49,8 +49,12 @@ select {
     width: 210px;
 }
 
-input:focus {
+input:focus, 
+select:focus {
+    border: 1px solid black;
     outline: none;
+    width: 198px;
+    height: 28px;
 }
 
 .cancel-btn, .confirm-btn {
@@ -64,6 +68,7 @@ input:focus {
 }
 
 .cancel-btn:hover, .confirm-btn:hover {
-    background-color: hsl(208, 100%, 97%);
+    background-color: hsl(208, 78%, 88%);
+    transition: 200ms ease-in-out;
     color: black;
 }
