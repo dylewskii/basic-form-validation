@@ -38,6 +38,19 @@ input,
 
 select, input {
     width: 200px;
+    height: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+select {
+    width: 210px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .cancel-btn, .confirm-btn {
@@ -46,8 +59,11 @@ select, input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: hsl(0, 0%, 35%);
+    color: white;
 }
 
 .cancel-btn:hover, .confirm-btn:hover {
-    background-color: aliceblue;
+    background-color: hsl(208, 100%, 97%);
+    color: black;
 }
